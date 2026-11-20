@@ -2,32 +2,32 @@
 
 > Hotel management web app for rooms, guests, reservations and reports.
 
-Aplikacja webowa (Spring MVC + Thymeleaf) do obsługi hotelu: pokoje i ich typy, goście, rezerwacje oraz raporty obłożenia.
+A server-rendered web application (Spring MVC + Thymeleaf) for running a hotel: rooms and room types, guests, reservations and occupancy reports.
 
-## Technologie
+## Tech stack
 
 - Java 17, Spring Boot 3.4
 - Spring Web (MVC) + Thymeleaf
-- Spring Data JPA, specyfikacje JPA do filtrowania rezerwacji
-- H2 (baza plikowa, konsola H2 włączona)
+- Spring Data JPA, JPA Specifications for reservation filtering
+- H2 (file-based database, H2 console enabled)
 - Maven
 
-## Funkcjonalności
+## Features
 
-- **Pokoje**: dodawanie, edycja, przypisywanie i odpinanie gościa
-- **Typy pokoi**: dodawanie
-- **Goście**: dodawanie, edycja, usuwanie, lista
-- **Rezerwacje**: tworzenie, edycja, usuwanie, status rezerwacji, filtrowanie po gościu, pokoju, datach i statusie
-- **Raporty**: generowanie raportu dla zakresu dat
+- **Rooms**: add, update, assign and unassign a guest
+- **Room types**: add
+- **Guests**: add, edit, delete, list
+- **Reservations**: create, edit, delete, reservation status, filtering by guest, room, dates and status
+- **Reports**: generate a report for a date range
 
-## Uruchomienie
+## Running
 
 ```bash
 ./mvnw spring-boot:run
 ```
 
-Aplikacja: `http://localhost:8080`, konsola H2: `http://localhost:8080/h2-console`.
+App: `http://localhost:8080`, H2 console: `http://localhost:8080/h2-console`.
 
 ---
 
-Projekt z przedmiotu Metody Tworzenia Aplikacji Bazodanowych, Informatyka Stosowana, Politechnika Warszawska.
+Built for the Database Application Development Methods course, Applied Computer Science, Warsaw University of Technology. The user interface is in Polish.

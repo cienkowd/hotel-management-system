@@ -1,4 +1,6 @@
-# HotelManagement
+# Hotel Management System
+
+> Hotel management web app for rooms, room types, guests, reservations and reports. Spring Boot, Spring Data JPA, Thymeleaf, H2.
 
 HotelManagement to system zarządzania hotelem, który pozwala na efektywne zarządzanie rezerwacjami, pokojami oraz danymi gości. Projekt zrealizowany przy użyciu Java oraz frameworka Spring Boot, zapewniający łatwą integrację z bazą danych i REST API.
 
